@@ -68,7 +68,17 @@ define('BASE', 'http://localhost/site_maira/');
                     <li><a rel="nofollow" title="Consultas" href="#consultas">Consultas</a></li>
                 </ul>                  
             </div>
-                
+            <div class="menu_fixo" style="display: none;">
+                <img src="img/logo2.png" alt="" title="" />
+                <span>Maira Silva</span>
+                <ul>
+                    <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
+                    <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
+                    <li><a rel="nofollow"title="Terapias" href="#terapias">Terapias</a></li>
+                    <li><a rel="nofollow" title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
+                    <li><a rel="nofollow" title="Consultas" href="#consultas">Consultas</a></li>
+                </ul> 
+            </div>
         </header>
         <section title="banner principal" class="banner_principal">
             <!-- colocar o alt e title da img -->
@@ -193,7 +203,7 @@ define('BASE', 'http://localhost/site_maira/');
                         <!-- Form -->
                         <form id="contact-us" method="post" action="contato.php">
                           <!--   Left Inputs -->
-                            <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <div class="col-xs-12 col-sm-6 wow animated slideInLeft" data-wow-delay=".5s">
                                 <!-- Name -->
                                 <input type="text" name="name" id="name" required="required" class="form" placeholder="Nome" />
                                 <!-- Email -->
@@ -202,7 +212,7 @@ define('BASE', 'http://localhost/site_maira/');
                                 <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Telefone" />
                             </div><!-- End Left Inputs -->
                             <!-- Right Inputs -->
-                            <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                            <div class="col-xs-12 col-sm-6 wow animated slideInRight" data-wow-delay=".5s">
                                 <!-- Message -->
                                 <textarea name="message" id="message" class="form textarea"  placeholder="Menssagem"></textarea>
                             </div><!-- End Right Inputs -->

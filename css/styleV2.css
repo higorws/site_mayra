@@ -8,6 +8,13 @@
     font-size: 1em;
 }
 
+.ds-none{
+    display: none;
+}
+.ds-block{
+    display: block;
+}
+
 .nav_topo_sociais{
     background: #fff;
     text-align: right;
@@ -163,7 +170,48 @@ header{
     text-align: right;
     text-align: right;
     background: #fcf8f7;
-   margin: 79px auto;
+    margin: 79px auto;
+}
+.menu_fixo{
+    position:fixed;
+    z-index: 99;
+    width: 100%;
+    background-color: #fff0ef;
+    height:70px;   
+    top:0;
+}
+.menu_fixo img{
+    width: 50px;
+    margin: 10px;
+    vertical-align: middle;
+    margin-left:2%;
+}
+.menu_fixo span{
+    font-size:1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.menu_fixo ul{
+    float:right;
+    margin-top:0px;
+    height: 40px;
+}
+.menu_fixo li{
+    height:70px;
+}
+.menu_fixo li a{
+    height: 30px;
+    display: block;
+    padding-right: 1em;
+    margin-right: 1em;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #d4355b;
+    padding: 25px 0;
+    font-size: 0.859em;
+    font-weight: 600;
 }
 /*.menu-fixo  {
     position:fixed !important;
