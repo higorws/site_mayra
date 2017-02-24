@@ -1,0 +1,759 @@
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.nav_topo_sociais{
+    background: #fff;
+    text-align: right;
+    line-height: 40px;
+
+}
+.container{
+    padding-left: 0px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.rom{
+    margin-left: 0;
+    margin-right: 5px;
+}
+div.container:before{
+    content: " ";
+    display: table;
+}
+div.rom::before{
+    content: " ";
+    display: table;
+}
+.Contato_topo{
+
+    font-size: 0.79em;
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff0ef;
+}
+.Contato_topo ul{
+    vertical-align: middle;
+}
+.nav_topo_sociais p, .topo_sociais{
+    margin: 0 0 0 25px;
+}
+.topo_sociais li{
+    margin-right: 15px;
+}
+span.logo_facebook::after{
+    content: url(../img/icons/facebook.png);
+    height: 8px;
+    vertical-align: middle;
+}
+span.logo_facebook:hover{
+    content:url(../img/icons/facebook2.png);
+
+}
+span.logo_linkidin::after{
+    content:url(../img/icons/linkedin.png);
+    vertical-align: middle;
+}
+span.logo_linkidin:hover{
+    content:url(../img/icons/linkedin2.png);
+}
+a.email_topo::before{
+    content:url(../img/icons/email_preto.png);
+    clear: both;
+    margin: 10px;
+    vertical-align: middle;
+}
+span.telefone_topo::before{
+    content:url(../img/icons/telefone.png);
+    clear: both;
+    margin: 10px;
+    vertical-align: middle;
+}
+p, ul, li, a span  {
+    display: inline-block;
+}
+.email_topo{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.email_topo:hover{
+    color: #e30838;
+    transition: all 0.3s linear;
+
+}
+
+
+body{
+    font-family:"open sans",Verdana, Geneva, Arial, sans-serif;
+    font-size: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+header{
+   width: 100%;
+    background-color: #fcf8f7;
+    position: relative;
+    height: 154px;
+
+
+}
+.logo{
+    display: block;
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.main_logo{
+    position: absolute;
+    left:  -99999px;
+}
+#menuHeader ul{
+    font-weight: 500;
+    list-style-type: none;
+    text-align: -webkit-right;
+}
+.main_nav ul li{
+    display: inline;
+
+}
+#menuHeader a{
+    display: inline-block;
+    padding-right: 1em;
+    margin-right: 1em;
+
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #d4355b;
+    padding: 25px 0;
+}
+#menuHeader a:hover{
+    color: blueviolet;
+    transition: all 0.3s linear;
+}
+/*li.active::after{
+    content: ' ';
+    position: absolute;
+    z-index: 199;
+    width: 4.2%;
+    height: 3px;
+    left: 752px;
+    bottom: 0;
+    background: #B41FCE;
+
+}*/
+#menuHeader{
+   float: left;
+    width: 50%;
+    height: 56px;
+    /* position: absolute; */
+    /* top: 99px; */
+    /* right: 15px; */
+    text-align: right;
+    text-align: right;
+    background: #fcf8f7;
+   margin: 79px auto;
+}
+/*.menu-fixo  {
+    position:fixed !important;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}*/
+
+
+.banner_principal img{
+    width: 100%;
+    height: 85%;
+    /* position: relative; */
+    z-index: 1;
+}
+.banner_principal{
+    position: relative;
+    /* top: 43px; */
+    width: 100%;
+    height: 600px;
+   /* margin-bottom: 15px;*/
+}
+.retangulo_banner{
+    position: absolute;
+    /* background: blanchedalmond; */
+    background: #d4355b;
+    width: 70%;
+    /* margin-right: -10px; */
+    /* margin-left: -9px; */
+    /* bottom: 70px; */
+    /* right: 210px; */
+    margin-top: -161px;
+    margin-left: 15%;
+    z-index: 2;
+    padding: 1.2em;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.retangulo_banner h1{
+    line-height: 1.5;
+    /* padding: 1em; */
+    margin: 0.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+.retangulo_banner p{
+    margin: 0.5em;
+    font-size: 0.9235em;
+    color: #e6d8d8;
+    font-weight: 400;
+    text-indent: 1.0em;
+}
+.titulo_sobre img,h1{
+    display: inline;
+}
+.titulo_sobre img{
+    vertical-align: middle;
+}
+.titulo_sobre{
+    height: 55px;
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 12px;
+}
+div.titulo_sobre::before{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #d4355b;
+    position: absolute;
+    top: -24px;
+    right:  0;
+    /* margin-bottom: 12px; */
+
+}
+div.titulo_sobre::after{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #d4355b;
+    position: absolute;
+    bottom: -7px;
+    left:   0;
+    /* margin-bottom: 12px; */
+
+}
+.organizar_div{
+    /*margin-left: 41px;*/
+    text-align: center;
+}
+.organizar_div h1{
+    color:#d4355b;
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    font-size: 1.3em;
+    vertical-align: middle;
+
+}
+.sobre_mayra{
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+}
+.foto_maira{   
+    float: left;
+    width: 30%;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+.maira_img{
+    width: 100%;
+}
+.esconder{
+    position: absolute;
+    left: -99999px;
+}
+.texto_mayra{
+    width: 40%;
+    text-align: left;
+    float: left;
+    margin-top: 0px;
+    color: #d4355b;
+    background: rgba(227,8,56, 0.03);
+    padding: 2em;
+
+    /* position: relative; */
+}
+.texto_mayra p{
+    text-indent: 1.8em;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+/*.p_1,.p_2{
+    text-indent: 1.8em;
+    background: pink;
+    padding: 1em;
+}*/
+/*.espaçamento{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}*/
+.discrição_foto_maira{
+    background:#ffdfdc;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    /*text-indent: 1.5em;*/
+    font-size: 0.9em;
+}
+.marcar{
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+/*terapias*/
+
+.titulo_terapias img,h1{
+    display: inline;
+}
+.titulo_terapias img{
+    vertical-align: middle;
+}
+.titulo_terapias{
+    height: 55px;
+    position: relative;
+   /* margin-top: 45px;*/
+    margin-bottom: 45px;
+}
+div.titulo_terapias::before{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #d4355b;
+    position: absolute;
+    top: -24px;
+    right:  0;
+    /* margin-bottom: 12px; */
+
+}
+div.titulo_terapias::after{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #d4355b;
+    position: absolute;
+    bottom: -7px;
+    left:   0;
+    /* margin-bottom: 12px; */
+
+}
+.organizar_div2{
+    /*margin-left: 41px;*/
+    text-align: center;
+}
+.organizar_div2 h1{
+    color:#d4355b;
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    font-size: 1.3em;
+    vertical-align: middle;
+
+}
+#terapias{
+    width: 100%;
+    /*margin-top: 18px;*/
+
+
+}
+.backgroud{
+    background: #d4355b;
+    padding: 1px;
+}
+
+/*publico atendido*/
+
+.titulo_publico img,h1{
+    display: inline;
+}
+.titulo_publico img{
+    vertical-align: middle;
+}
+.titulo_publico{
+    height: 55px;
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+div.titulo_publico::before{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #d4355b;
+    position: absolute;
+    top: -24px;
+    right:  0;
+    /* margin-bottom: 12px; */
+
+}
+div.titulo_publico::after{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #d4355b;
+    position: absolute;
+    bottom: -7px;
+    left:   0;
+    /* margin-bottom: 12px; */
+
+}
+.organizar_div3{
+    /*margin-left: 41px;*/
+    text-align: center;
+}
+.organizar_div3 h1{
+    color:#d4355b;
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+#publico_atendido{
+    width: 100%;
+}
+#publico_atendido h2{
+    text-align: center;
+    /* margin: 0px; */
+    padding-top: 2em;
+    font-size: 1.19em;
+    font-weight: 600;
+    color: #d4355b;
+}
+.publico{
+    width: 100%;
+    padding: 0em;
+    margin-top: 50px;
+}
+.infantil{
+    width: 28%;
+    float: left;
+    margin: 30px;
+    margin-left: 3%;
+}
+.adolescentes{
+    width: 28%;
+    float: left;
+    margin: 30px;
+}
+
+.adultos{
+    width: 28%;
+    float: left;
+    margin: 30px;
+    margin-right: 3%;
+}
+.infantil,
+.adolescentes,
+.adultos{
+    position: relative;
+}
+.adultos img, 
+.adolescentes img, 
+.infantil img{
+    width: 100%;
+    height: 230px;
+
+}
+.publico h3{
+    padding-top: 1em;
+    font-size: 0.9em;
+    color: #d4355b;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h3::after{
+    content: "";
+    width: 12%;
+    height: 2px;
+    background: rgba(221,64,102, 0.3);
+    position: absolute;
+    bottom: -7px;
+    left:   0;
+
+}
+/*Consultas*/
+#consultas{
+    width: 100%;
+}
+.titulo_consultas img,h1{
+    display: inline;
+}
+.titulo_consultas img{
+    vertical-align: middle;
+}
+.titulo_consultas{
+    height: 55px;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+div.titulo_consultas::before{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #d4355b;
+    position: absolute;
+    top: -24px;
+    right:  0;
+    /* margin-bottom: 12px; */
+
+}
+div.titulo_consultas::after{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #d4355b;
+    position: absolute;
+    bottom: -7px;
+    left:   0;
+    /* margin-bottom: 12px; */
+
+}
+.organizar_div4{
+    /*margin-left: 41px;*/
+    text-align: center;
+}
+.organizar_div4 h1{
+    color:#d4355b;
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+/*.inf_cons p{
+    padding: 2em;
+    font-size: 1.05em;
+    font-weight: 600;
+    position: relative;
+}*/
+.inf_consu{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+/*div.inf_cons::after{
+    content: "";
+    width: 50%;
+    height: 0.5px;
+    background: #e2a8b6;
+    position: absolute;
+    bottom: 0px;
+    left: 255px;
+    /* margin-bottom: 12px; 
+
+}*/
+
+/*footer*/
+
+#footer{
+    width: 100%;
+    margin-top: 35px;
+    background: rgb(123, 4, 26);
+    color: white;
+}
+span.logo_facebook2::after{
+    content: url(../img/icons/facebook_footer.png);
+    height: 8px;
+    vertical-align: middle;
+    display: block;
+}
+span.logo_facebook2:hover{
+    content:url(../img/icons/facebook_footer2.png);
+
+}
+span.logo_linkidin2::after{
+    content:url(../img/icons/linkedin_footer.png);
+    vertical-align: middle;
+    display: block;
+}
+span.logo_linkidin2:hover{
+    content:url(../img/icons/linkedin_footer2.png);
+}
+h2.telefone_footer::before{
+    content:url(../img/icons/phone_footer.png);
+    clear: both;
+    margin: 10px;
+    vertical-align: middle;
+}
+h2.email_Footer::before{
+    content:url(../img/icons/mail_footer.png);
+    clear: both;
+    margin: 10px;
+    margin-right: 14px;
+    vertical-align: middle;
+}
+.contato_footer{
+    margin: 0 2% 50px;
+    padding: 34px 0 0;
+    /* border-top: 2px solid #ffffff; */
+    width: 23%;
+    position: relative;
+    float: left;
+}
+.contato_footer hgroup{
+    width: 100%;
+    /* line-height: 2em; */
+    padding: 0.9em;
+}
+.titulos_footer{
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+.telefone_footer{
+    color: rgba(255, 254, 254, 0.61);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.email_Footer{
+    color: rgb(255, 254, 254);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.footer_sociais{
+    margin-left: 115px;
+}
+.footer_sociais li{
+    margin-right: 20px;
+}
+div.contato_footer::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+.localização{
+   margin: 0 2% 50px;
+    padding: 34px 0 0;
+    /* border-top: 2px solid #ffffff; */
+    width: 43%;
+    position: relative;
+    float: left;
+}
+.localização .Lo_1{
+    width: 46%;
+    margin-top: 40px;
+    margin-right: 8px;
+    /* line-height: 2em; */
+    /* padding: 0.9em; */
+    float: left;
+    
+}
+.localização h2{
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-bottom: -19px;
+    margin-top: 14px;
+    /* width: 100%; */
+}
+.localização iframe{
+    border: 0;
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.localização .Lo_1 p{
+    color: rgba(255, 254, 254, 0.61);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+div.localização::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+p.local_icon::before{
+    content:url(../img/icons/localização.png);
+    clear: both;
+    margin: -32px;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+.menu_footer{
+    margin: 0 2% 50px;
+    padding: 44px 0 0;
+    /* border-top: 2px solid #ffffff; */
+    width: 21%;
+    position: relative;
+    float: left;
+}
+.menu_footer ul{
+    display: table-caption;
+    width: 100%;
+    /* line-height: 2em; */
+    padding: 1em;
+    line-height: 1.9;
+    margin-top: 2px;
+    color: rgb(255, 254, 254);
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.menu_footer li a{
+    color: white;
+    text-decoration: none;
+}
+.menu_footer h2{
+        text-align: center;
+        text-transform: uppercase;
+}
+nav.menu_footer::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+.direiros{
+  /*  display: inline;*/
+    font-size: 0.8em;
+    padding: 0.5em;
+    color: rgba(255, 254, 254, 0.51);
+    background: #801e30;
+    width: 100%;
+}
+.dir_1 div{
+    display: inline;
+    margin: 0 5% 0;
+}
+.direiros a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}

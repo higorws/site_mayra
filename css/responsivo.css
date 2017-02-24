@@ -1,0 +1,90 @@
+img, .logo{
+    max-width: 100%;
+}
+
+section, header, footer{
+    max-width: 1454px;
+    margin: 0 auto;
+}
+.logo,
+.nav_topo_sociais,
+#menuHeader{
+     display: inline-block !important;
+    vertical-align: middle;
+}
+@media (max-width: 1205px) {
+    #menuHeader {width: 50%; float: left; font-size: 0.8em;}
+}  
+@media (min-width: 968px){
+   
+}
+@media (max-width: 968px) {
+   #menuHeader ul { display: none;}
+   .Contato_topo {width: 100%; text-align: center;}
+   .logo{width: 370px; height: 65%; margin: 47px auto;}
+} 
+@media (max-width: 1217px){
+    .infantil,.adolescentes,.adultos{ width: 25%;}
+}
+@media (max-width: 1024px){
+    #terapias{ margin-top: 20px;}
+}
+@media(max-width: 880px){
+    #terapias{ margin-top: 10px;}
+    .retangulo_banner{width: 90%; margin-left: 2%;margin-right: 2%;}
+}
+@media(max-width: 768px){
+    .retangulo_banner{width: 100%;margin: 0;}
+    #terapias{ margin-top: -50px;}
+    .banner_principal img{ height: 50%;}
+    .infantil,.adolescentes,.adultos{width: 90%; margin-left: 4%; margin-right: 4%;}
+    .contato_footer, .localização, .menu_footer{width: 100%; margin: 0;}
+    .localização .Lo_1{width: 90%; margin-left: 55px}
+    .localização iframe{width: 90%; margin-left: 25px;}
+    .texto_mayra {width: 90%; margin-left: 4%; margin-right: 4%;  margin-top: 15px; }
+    .foto_maira{width: 40%; margin-left: 29%; margin-right: 29%;}
+    .dir_1_1, .dir_1_2{width: 100%; float: left;}
+    .dir_1 div{ margin: 0;}
+    .direiros{text-align: center;}
+}
+@media(max-width: 607px){
+    #terapias{ margin-top: -28px;}
+}
+@media(max-width: 555px){
+    .Contato_topo{display: none;}
+    #terapias{ margin-top: -133px;}
+    .organizar_div2, .organizar_div, .organizar_div3, .organizar_div4{font-size: 0.7em;}
+    .localização .Lo_1{width: 90%; margin-left: 35px}
+    .logo{ width: 306px; height: 100%; margin: 0;}
+    #header{ height: 100px;}
+    .retangulo_banner{width: 100%;margin: 0; font-size: 0.8em;}
+    .banner_principal img{ height: 33%;}
+    #terapias{ margin-top: -133px;}
+    .inf_cons{ width: 100%;}
+    .inf_cons p{ font-size: 0.7em;}
+    
+
+
+}
+@media(max-width: 425px){    
+   
+    
+}
+@media(max-width: 425px){    
+    .foto_maira{width: 210px;}
+    .localização iframe{ margin-left: 5%;}
+    
+    
+}
+@media(max-width: 349px){
+    .foto_maira{width: 210px; margin-left: 10%;}
+}  
+@media(max-width: 370px){
+     .localização .Lo_1{font-size: 0.9em; width: 70%; margin-left: 58px;}
+     #terapias{ margin-top: -99px;}
+}
+@media(max-width: 320px){
+     #terapias{ margin-top: -75px;}
+}  
+
+
