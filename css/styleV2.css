@@ -757,3 +757,7 @@ nav.menu_footer::before{
     text-decoration: none;
     color: rgb(255, 254, 254);
 }
+a.retornar::after{
+    content: url(../img/icons/10.png);
+   
+}

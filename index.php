@@ -61,7 +61,7 @@ define('BASE', 'http://localhost/site_maira/');
             </div>
             <div title="menu_principal" id="menuHeader">                
                 <ul >
-                    <li class="active"><a title="Inicio" href="#header">Inicio</a></li>
+                    <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
                     <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
                     <li><a rel="nofollow"title="Terapias" href="#terapias">Terapias</a></li>
                     <li><a rel="nofollow" title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
@@ -266,6 +266,8 @@ define('BASE', 'http://localhost/site_maira/');
                     <li style="width: 172%"><a rel="nofollow" title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
                     <li><a rel="nofollow" title="Consultas" href="#consultas">Consultas</a></li>
                 </ul>
+                <a rel="nofollow" title="Inicio" href="#header" class="retornar"></a>
+        <script src="js/retornar_inicio.js"></script>
             </nav>
         </footer>
         <footer class="direiros">
@@ -278,6 +280,7 @@ define('BASE', 'http://localhost/site_maira/');
                 </div>
             </div>
         </footer>
+       
 
 
     </body>
