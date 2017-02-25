@@ -14,13 +14,14 @@ define('BASE', 'http://localhost/site_maira/');
         <link rel="stylesheet" href="css/styleV2.css">
         <link rel="stylesheet" href="css/terapias.css">
         <link rel="stylesheet" href="css/formulario_consulta.css">
-        <link rel="stylesheet" href="css/bootstrap.css">        
+        <link rel="stylesheet" href="css/bootstrap.css">    
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/responsivo.css">           
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/menu.js"></script>
         <script src="js/modernizr.js"></script> <!-- Modernizr -->
         <script src="js/scrool.js"></script>  <!--Modernizr -->
-       
+        <script src="js/menu_responsivo.js"></script>
         
         <!--[if lt IE 9]>
           <script src="js/html5shiv.js"></script>
@@ -59,8 +60,11 @@ define('BASE', 'http://localhost/site_maira/');
                     </div>
                 </div>
             </div>
+            <div class="btn_menu"><i class="fa fa-bars fa-2x " aria-hidden="true"></i></div>
+           
             <div title="menu_principal" id="menuHeader">                
                 <ul >
+                    <i class="fa fa-times" aria-hidden="true"></i>
                     <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
                     <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
                     <li><a rel="nofollow"title="Terapias" href="#terapias">Terapias</a></li>
@@ -68,9 +72,10 @@ define('BASE', 'http://localhost/site_maira/');
                     <li><a rel="nofollow" title="Consultas" href="#consultas">Consultas</a></li>
                 </ul>                  
             </div>
+            <!-- menu_fixo-->
             <div class="menu_fixo" style="display: none;">
                 <img src="img/logo2.png" alt="" title="" />
-                <span>Maira Silva</span>
+                <span>Mayra Silva</span>
                 <ul>
                     <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
                     <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>

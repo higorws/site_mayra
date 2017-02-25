@@ -16,12 +16,22 @@ section, header, footer{
     #menuHeader {width: 50%; float: left; font-size: 0.8em;}
 }  
 @media (min-width: 968px){
-   
+  
 }
-@media (max-width: 968px) {
-   #menuHeader ul { display: none;}
+@media (max-width: 968px) { 
+   #menuHeader li{display:block; z-index: 99; }
+   #menuHeader ul{     z-index: 99;
+    position: fixed;
+    left: 13px;
+    top: 13px; 
+   display: none;}
+   #menuHeader i{ position: fixed;
+    left: 13px;}
+   
    .Contato_topo {width: 100%; text-align: center;}
    .logo{width: 370px; height: 65%; margin: 47px auto;}
+   .btn_menu{ display: block; position: absolute; bottom: 34px; right: 47px;}
+   
 } 
 @media (max-width: 1217px){
     .infantil,.adolescentes,.adultos{ width: 25%;}

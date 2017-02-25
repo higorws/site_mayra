@@ -213,6 +213,9 @@ header{
     font-size: 0.859em;
     font-weight: 600;
 }
+.btn_menu{
+    display: none;
+}
 /*.menu-fixo  {
     position:fixed !important;
     top: 0;
