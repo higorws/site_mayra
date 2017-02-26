@@ -9,24 +9,31 @@ section, header, footer{
 .logo,
 .nav_topo_sociais,
 #menuHeader{
-     display: inline-block !important;
+    display: inline-block !important;
     vertical-align: middle;
 }
 @media (max-width: 1205px) {
     #menuHeader {width: 50%; float: left; font-size: 0.8em;}
 }  
 @media (min-width: 968px){
-  
+  #menuHeader ul{display: block;}
+  #menuHeader ul i{ display: none;}
+  .menu_responsivo {display: none;}
 }
 @media (max-width: 968px) { 
-   #menuHeader li{display:block; z-index: 99; }
-   #menuHeader ul{     z-index: 99;
+   .menu_responsivo li{display:block; z-index: 99; }
+   #menuHeader ul{display: none;}
+   .menu_responsivo ul{display: none; padding: 2em; text-align: left; }
+   .menu_responsivo ul .active{margin-top: 35px;}
+   .menu_responsivo i{ position: fixed; left: 192px; top: 20px;color: whitesmoke;}
+   .menu_responsivo ul span{ color: whitesmoke; text-transform: uppercase; font-size: 1.1em; font-weight: 700; text-align: center;}
+   .menu_responsivo{
+    z-index: 99;
     position: fixed;
-    left: 13px;
-    top: 13px; 
-   display: none;}
-   #menuHeader i{ position: fixed;
-    left: 13px;}
+    left: 0;
+    top: 0;    
+   }
+  
    
    .Contato_topo {width: 100%; text-align: center;}
    .logo{width: 370px; height: 65%; margin: 47px auto;}
@@ -42,6 +49,13 @@ section, header, footer{
 @media(max-width: 880px){
     #terapias{ margin-top: 10px;}
     .retangulo_banner{width: 90%; margin-left: 2%;margin-right: 2%;}
+}
+@media(max-width: 798px){
+    .menu_fixo ul{display: none;}
+    .btn_menu_fixo{display: block; position: absolute; top: 13px; right: 40px;}
+}
+@media(min-width: 798px){
+    .btn_menu_fixo{display: none; }
 }
 @media(max-width: 768px){
     .retangulo_banner{width: 100%;margin: 0;}
@@ -92,9 +106,12 @@ section, header, footer{
 @media(max-width: 370px){
      .localização .Lo_1{font-size: 0.9em; width: 70%; margin-left: 58px;}
      #terapias{ margin-top: -99px;}
+     .logo{ width: 250px;}
 }
 @media(max-width: 320px){
      #terapias{ margin-top: -75px;}
+     .logo{ width: 240px;}
+     .btn_menu{ right: 28px;}
 }  
 
 

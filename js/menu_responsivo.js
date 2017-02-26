@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    $('.btn_menu').click(function () {
-        $('#menuHeader ul').toggle();
+    $('.btn_menu , .btn_menu_fixo').click(function () {
+        $('.menu_responsivo ul').toggle();
     });
-    $('#menuHeader i').click(function () {
-        $('#menuHeader ul').toggle();
+    $('.menu_responsivo i').click(function () {
+        $('.menu_responsivo ul').toggle();
     });
-    $('#menuHeader li').click(function () {
-        $('#menuHeader ul').toggle();
+    $('.menu_responsivo li').click(function () {
+        $('.menu_responsivo ul').toggle();
     });
 });
 

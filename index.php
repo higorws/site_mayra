@@ -16,7 +16,7 @@ define('BASE', 'http://localhost/site_maira/');
         <link rel="stylesheet" href="css/formulario_consulta.css">
         <link rel="stylesheet" href="css/bootstrap.css">    
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/responsivo.css">           
+        <link rel="stylesheet" href="css/responsivo.css">        
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/menu.js"></script>
         <script src="js/modernizr.js"></script> <!-- Modernizr -->
@@ -61,9 +61,19 @@ define('BASE', 'http://localhost/site_maira/');
                 </div>
             </div>
             <div class="btn_menu"><i class="fa fa-bars fa-2x " aria-hidden="true"></i></div>
-           
+            <div title="menu_principal" class="menu_responsivo">                   
+                <ul>
+                    <span>Menu</span>
+                    <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+                    <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
+                    <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
+                    <li><a rel="nofollow"title="Terapias" href="#terapias">Terapias</a></li>
+                    <li><a rel="nofollow" title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
+                    <li><a rel="nofollow" title="Consultas" href="#consultas">Consultas</a></li>
+                </ul>                  
+            </div>           
             <div title="menu_principal" id="menuHeader">                
-                <ul >
+                <ul>
                     <i class="fa fa-times" aria-hidden="true"></i>
                     <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
                     <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
@@ -76,6 +86,7 @@ define('BASE', 'http://localhost/site_maira/');
             <div class="menu_fixo" style="display: none;">
                 <img src="img/logo2.png" alt="" title="" />
                 <span>Mayra Silva</span>
+                <div class="btn_menu_fixo"><i class="fa fa-bars fa-2x " aria-hidden="true"></i></div>
                 <ul>
                     <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
                     <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>

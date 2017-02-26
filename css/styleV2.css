@@ -149,6 +149,23 @@ header{
     color: blueviolet;
     transition: all 0.3s linear;
 }
+.menu_responsivo ul{
+    font-weight: 500;
+    list-style-type: none;
+    text-align: -webkit-right;
+    background: #d4355b;
+}
+.menu_responsivo a{
+    display: inline-block;
+    padding-right: 1em;
+    margin-right: 1em;
+
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 25px 0;
+}
 /*li.active::after{
     content: ' ';
     position: absolute;
@@ -174,7 +191,7 @@ header{
 }
 .menu_fixo{
     position:fixed;
-    z-index: 99;
+    z-index: 95;
     width: 100%;
     background-color: #fff0ef;
     height:70px;   
@@ -212,6 +229,10 @@ header{
     padding: 25px 0;
     font-size: 0.859em;
     font-weight: 600;
+}
+.menu_fixo a:hover{
+    color: blueviolet;
+    transition: all 0.3s linear;
 }
 .btn_menu{
     display: none;
