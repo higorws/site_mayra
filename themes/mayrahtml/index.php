@@ -94,7 +94,7 @@
             <p class="p_2">
                 Experiência profissional como Terapeuta Comportamental, Analista de Recursos Humanos;
                 Saúde Ocupacional; Psicóloga na rede Socioassistencial, Vasta experiência no treinamento
-                e desenvolvimento de pessoas e liderança de Equipes.
+                e desenvolvimento de pessoas e liderança de equipes.
             </p>
         </article>
     </div>

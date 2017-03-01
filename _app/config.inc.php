@@ -9,3 +9,4 @@ $getUrl = strip_tags(trim(filter_input(INPUT_GET, 'url', FILTER_DEFAULT)));
 $setUrl = (empty($setUrl)? 'index' : $getUrl);
 $Url = explode('/', $setUrl);
 
+$pg_url = HOME;

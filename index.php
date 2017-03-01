@@ -9,7 +9,8 @@ require './_app/config.inc.php';
         <title>Mayra Silva - Psicóloga comportamental </title>
         <meta name="description" content="Mayra Sivla - Psicóloga comportamental">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <!-- <link rel="stylesheet" href="css/reset.css">-->
+        <meta name="robots" content="index, fallow"
+              <link rel="canonical" href="<?= $pg_url;?>">
         <link rel="icon" href="<?= INCLUDE_PATH;?>/img/logo_favicon.png">
         <link rel="stylesheet" href="<?= INCLUDE_PATH;?>/css/styleV2.css">
         <link rel="stylesheet" href="<?= INCLUDE_PATH;?>/css/terapias.css">
