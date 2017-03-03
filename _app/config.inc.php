@@ -10,3 +10,7 @@ $setUrl = (empty($setUrl)? 'index' : $getUrl);
 $Url = explode('/', $setUrl);
 
 $pg_url = HOME;
+
+$pg_google_autor = '';
+$pg_google_publisher = '117773561253560120253';
+$pg_site = 'Mayra Silva - psicóloga comportamental';

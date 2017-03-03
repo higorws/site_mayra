@@ -3,14 +3,11 @@
 require './_app/config.inc.php';
 ?>
 
-<html lang="pt-br">
+<html lang="pt-br" itemscope itemtype="https://schema.org/Article">
     <head>
         <meta charset="UTF-8">
         <title>Mayra Silva - Psicóloga comportamental </title>
-        <meta name="description" content="Mayra Sivla - Psicóloga comportamental">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="robots" content="index, fallow"
-              <link rel="canonical" href="<?= $pg_url;?>">
         <link rel="icon" href="<?= INCLUDE_PATH;?>/img/logo_favicon.png">
         <link rel="stylesheet" href="<?= INCLUDE_PATH;?>/css/styleV2.css">
         <link rel="stylesheet" href="<?= INCLUDE_PATH;?>/css/terapias.css">
@@ -23,6 +20,21 @@ require './_app/config.inc.php';
         <script src="_cdn/modernizr.js"></script> <!-- Modernizr -->
         <script src="_cdn/scrool.js"></script>  <!--Modernizr -->
         <script src="_cdn/menu_responsivo.js"></script>
+        
+        <meta name="robots" content="index, fallow">
+        <meta name="description" content="Mayra Sivla - Psicóloga comportamental">
+
+        <link rel="canonical" href="<?= $pg_url;?>">
+        <link rel="publisher" href="https://plus.google.com/<?= $pg_google_publisher;?>"/>
+        <link rel="author" href="https://plus.google.com/<?= $pg_google_autor;?>"/>
+        
+        <meta itemprop="name" content="<?= $pg_site;?>"/>
+        <meta itemprop="description" content="Mayra Sivla - Psicóloga comportamental"/>
+        <meta itemprop="image" content=""/>
+        <meta itemprop="url" content="<?= $pg_url;?>"/>
+        
+        
+        
         
         <!--[if lt IE 9]>
           <script src="js/html5shiv.js"></script>
