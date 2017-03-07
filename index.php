@@ -33,6 +33,19 @@ require './_app/config.inc.php';
         <meta itemprop="image" content=""/>
         <meta itemprop="url" content="<?= $pg_url;?>"/>
         
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Mayra Silva - Psicóloga comportamental "/>
+        <meta property="og:description" content="Mayra Silva - Psicóloga comportamental "/>
+        <meta property="og:image" content="article"/>
+        <meta property="og:url" content="<?= $pg_url;?>"/>
+        <meta property="og:site_name" content="<?= $pg_site;?>"/>
+        <meta property="og:locale" content="pt_BR"/>
+        
+        <meta property="og:app_id" content="<?= $pg_fb_app;?>"/>
+        <meta property="article:author" content="https://www.facebook.com/<?= $pg_fb_author;?>"/>
+        <meta property="article:publisher" content="https://www.facebook.com/<?= $pg_fb_page;?>"/>
+       
+        
         
         
         
@@ -88,11 +101,11 @@ require './_app/config.inc.php';
             <div title="menu_principal" id="menuHeader">                
                 <ul>
                     <i class="fa fa-times" aria-hidden="true"></i>
-                    <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
-                    <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
-                    <li><a rel="nofollow"title="Terapias" href="#terapias">Terapias</a></li>
-                    <li><a rel="nofollow" title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
-                    <li><a rel="nofollow" title="Consultas" href="#consultas">Consultas</a></li>
+                    <li class="active"><a  title="Inicio" href="#header">Inicio</a></li>
+                    <li><a  title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
+                    <li><a title="Terapias" href="#terapias">Terapias</a></li>
+                    <li><a  title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
+                    <li><a  title="Consultas" href="#consultas">Consultas</a></li>
                 </ul>                  
             </div>
             <!-- menu_fixo-->
@@ -101,11 +114,11 @@ require './_app/config.inc.php';
                 <span>Mayra Silva</span>
                 <div class="btn_menu_fixo"><i class="fa fa-bars fa-2x " aria-hidden="true"></i></div>
                 <ul>
-                    <li class="active"><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
-                    <li><a rel="nofollow" title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
-                    <li><a rel="nofollow"title="Terapias" href="#terapias">Terapias</a></li>
-                    <li><a rel="nofollow" title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
-                    <li><a rel="nofollow" title="Consultas" href="#consultas">Consultas</a></li>
+                    <li class="active"><a  title="Inicio" href="#header">Inicio</a></li>
+                    <li><a  title="sobre mim" href="#sobre_mim">Sobre mim</a></li>
+                    <li><a title="Terapias" href="#terapias">Terapias</a></li>
+                    <li><a  title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
+                    <li><a  title="Consultas" href="#consultas">Consultas</a></li>
                 </ul> 
             </div>
         </header>
@@ -144,18 +157,18 @@ require './_app/config.inc.php';
                     <p class="local_icon">Centro empresarial shopping Moxuara.</p>
                     <p>Rod. BR 262, 6.555 - Sala 307 - Torre 4 A</p>                    
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1572.8725823237264!2d-40.40062275604555!3d-20.343992628423425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48c0d6a34f286085!2sShopping+Moxuara!5e0!3m2!1spt-BR!2sbr!4v1487260486688" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1112.1864899264408!2d-40.39987080274619!3d-20.344323157413857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1aff2ce9fc9bcf7a!2sConsult%C3%B3rio+de+psicologia+Mayra+Silva!5e0!3m2!1spt-BR!2sus!4v1488888690217" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             <nav class="menu_footer">
                 <h2>Menu</h2>
                 <ul>
-                    <li><a rel="nofollow" title="Inicio" href="#header">Inicio</a></li>
-                    <li style="width: 115%"><a  rel="nofollow" title="Sobre mim" href="#sobre_mim">Sobre Mim</a></li>
-                    <li><a rel="nofollow"title="Terapias" href="#terapias">Terapias</a></li>
-                    <li style="width: 172%"><a rel="nofollow" title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
-                    <li><a rel="nofollow" title="Consultas" href="#consultas">Consultas</a></li>
+                    <li><a  title="Inicio" href="#header">Inicio</a></li>
+                    <li style="width: 115%"><a title="Sobre mim" href="#sobre_mim">Sobre Mim</a></li>
+                    <li><a title="Terapias" href="#terapias">Terapias</a></li>
+                    <li style="width: 172%"><a  title="Publico atendido" href="#publico_atendido">Público atendido</a></li>
+                    <li><a title="Consultas" href="#consultas">Consultas</a></li>
                 </ul>
-                <a rel="nofollow" title="Inicio" href="#header" class="retornar"></a>
+                <a  title="Inicio" href="#header" class="retornar"></a>
         <script src="_cdn/retornar_inicio.js"></script>
             </nav>
         </footer>
