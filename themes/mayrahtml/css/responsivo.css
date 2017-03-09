@@ -74,8 +74,10 @@ section, header, footer{
 @media(max-width: 607px){
     #terapias{ margin-top: -28px;}
 }
+@media(max-width: 580px){
+       .Contato_topo{display: none;}
+}
 @media(max-width: 555px){
-    .Contato_topo{display: none;}
     #terapias{ margin-top: -133px;}
     .organizar_div2, .organizar_div, .organizar_div3, .organizar_div4{font-size: 0.7em;}
     .localização .Lo_1{width: 80%; margin-left: 55px}

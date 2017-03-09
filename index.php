@@ -68,16 +68,16 @@ require './_app/config.inc.php';
                                 (27) 3286-6877
                             </p>
                             <p>
-                                <a class="email_topo" href="mailto: contato@mayrasiva.com.br" title="contato@mayrasiva.com.br">contato@mayrasiva.com.br</a>
+                                <a class="email_topo" href="mailto: contato@mayrasilvapsi.com.br" title="contato@mayrasilvapsi.com.br">contato@mayrasilvapsi.com.br</a>
                             </p>
                             <ul class="topo_sociais">
                                 <li>
-                                    <a href="https://www.facebook.com/profile.php?id=100005260125769&fref=ts" title="facebook">
+                                    <a href="https://www.facebook.com/Mayra-Silva-Psic%C3%B3loga-comportamental-1864049407169141/" title="facebook">
                                         <span class="logo_facebook"></span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/higor-weber-da-silva-329672127?trk=nav_responsive_tab_profile" title="linkidin">
+                                    <a href="https://www.linkedin.com/in/mayra-silva-9a9679127/" title="linkidin">
                                         <span class="logo_linkidin"></span>
                                     </a>
                                 </li>
@@ -136,16 +136,16 @@ require './_app/config.inc.php';
                     <h2 class="telefone_footer">
                         (27) 99934-3452 & 3286-6877
                     </h2>
-                    <h2 class="email_Footer">contato@contato.com.br</h2>
+                    <h2 class="email_Footer">contato@mayrasilvapsi.com.br</h2>
                 </hgroup>
                 <ul class="footer_sociais">
                     <li>
-                        <a href="https://www.facebook.com/profile.php?id=100005260125769&fref=ts" title="facebook">
+                        <a href="https://www.facebook.com/pg/Mayra-Silva-Psic%C3%B3loga-comportamental-1864049407169141/about/?ref=page_internal" title="facebook">
                             <span class="logo_facebook2"></span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/higor-weber-da-silva-329672127?trk=nav_responsive_tab_profile" title="linkidin">
+                        <a href="https://www.linkedin.com/in/mayra-silva-9a9679127/" title="linkidin">
                             <span class="logo_linkidin2"></span>
                         </a>
                     </li>
@@ -175,7 +175,7 @@ require './_app/config.inc.php';
         <footer class="direiros">
             <div class="dir_1">
                 <div class="dir_1_1">
-                    Todos os direitos reservados á <a href="https://www.facebook.com/profile.php?id=100005260125769&fref=ts">Mayra J. Silva</a> © Copyright 2017.
+                    Todos os direitos reservados á <a href="https://www.facebook.com/Mayra-Silva-Psic%C3%B3loga-comportamental-1864049407169141/">Mayra J. Silva</a> © Copyright 2017.
                 </div>
                 <div class="dir_1_2"> 
                     Design e desenvolvimento por: <a href="https://www.facebook.com/higorweber.dasilva">Higor Weber</a> e <a href="https://www.facebook.com/reynaldo.marinho.3?fref=hovercard">Reynaldo Marinho</a>.
